@@ -103,17 +103,17 @@ body {
 }
 
 .item-container .left-container .img-container1 {
-  background-image: url(../images/index-page.png);
+  background-image: url(../images/Desktop-View2.png);
 }
 
 .item-container .left-container .img-container2 {
-  height: 530px;
+  height: 582px;
   background-image: url(../images/iPad-View.png);
 }
 
 .item-container .left-container .img-container3 {
-  height: 530px;
-  background-image: url(../images/Mobile-View.png);
+  height: 582px;
+  background-image: url(../images/iPhone-5-view.png);
 }
 
 .item-container .right-container .skills, .item-container .right-container .important-points {

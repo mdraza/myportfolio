@@ -105,21 +105,21 @@ body {
         }
         .img-container1 {
             @extend %img-container;
-            background-image: url(../images/index-page.png);
+            background-image: url(../images/Desktop-View2.png);
         }
         .img-container2{
             // width: 60%;
-            height: 530px;
+            height: 582px;
             // margin: auto;
             @extend %img-container;
             background-image: url(../images/iPad-View.png);
         }
         .img-container3{
             // width: 20%;
-            height: 530px;
+            height: 582px;
             // margin: auto;
             @extend %img-container;
-            background-image: url(../images/Mobile-View.png);
+            background-image: url(../images/iPhone-5-view.png);
         }
     }
 
@@ -145,6 +145,7 @@ body {
             %skill-icon {
                 font-size: 45px;
             }
+            
 
             .fa-html5 {
                 @extend %skill-icon;
