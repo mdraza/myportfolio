@@ -246,7 +246,7 @@ body {
 
 .item-container .left-container .img-container1, .item-container .left-container .img-container2, .item-container .left-container .img-container3 {
   width: 100%;
-  height: 942px;
+  height: 982px;
   overflow: hidden;
   background-size: cover;
   background-position: top;
@@ -271,12 +271,12 @@ body {
 }
 
 .item-container .left-container .img-container2 {
-  height: 600px;
+  height: 665px;
   background-image: url(../images/iPad-View.png);
 }
 
 .item-container .left-container .img-container3 {
-  height: 600px;
+  height: 665px;
   background-image: url(../images/iPhone-5-view.png);
 }
 
