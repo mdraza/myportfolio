@@ -4,17 +4,29 @@ body {
     box-sizing: border-box;
     font-family: 'Muli', sans-serif;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .header {
     padding: 80px;
     text-align: center;
     background: #fafafa;
     color: #001a35;
-
+    @media screen and (max-width: 576px) {
+        padding: 80px 0;
+    }
+    h1{
+        @media screen and (max-width: 576px) {
+            font-size: 35px;
+        }
+    }
     p {
         width: 50%;
         margin: 20px auto 30px;
         font-size: 18px;
+        @media screen and (max-width: 576px) {
+            width: 75%;
+        }
     }
 
     .btn {
@@ -47,6 +59,11 @@ body {
                 color: rgb(239, 246, 255);
             }
         }
+    }
+    .navbar-toggler {
+        color: rgba(255,255,255,.5);
+        border-color: rgba(255,255,255,.1);
+        margin-left: 120px !important;
     }
 }
 
@@ -130,6 +147,10 @@ body {
     } 
   }
 
+/*-------------------------------*/
+/*        Content Container
+/*-------------------------------*/
+  
 %header-txt {
     color: #eff6ff;
     margin: 50px 0 20px;
@@ -145,6 +166,9 @@ body {
     background-color: #0062cc;
     width: 100%;
     height: 2500px;
+    @media screen and (max-width: 576px) {
+        height: 4500px;
+    }
 
     .left-container {
         height: 300px;
@@ -169,7 +193,7 @@ body {
 
         %img-container {
             width: 100%;
-            height: 982px;
+            height: 945px;
             overflow: hidden;
             background-size: cover;
             background-position: top;
@@ -192,20 +216,17 @@ body {
             @extend %img-container;
             background-image: url(../images/Desktop-View2.png);
         }
-
-        .img-container2 {
-            // width: 60%;
-            height: 665px;
-            // margin: auto;
+        %img-container23{
+            height: 594px;
             @extend %img-container;
+        }
+        .img-container2 {
+            @extend %img-container23;
             background-image: url(../images/iPad-View.png);
         }
 
         .img-container3 {
-            // width: 20%;
-            height: 665px;
-            // margin: auto;
-            @extend %img-container;
+            @extend %img-container23;
             background-image: url(../images/iPhone-5-view.png);
         }
     }
@@ -232,7 +253,11 @@ body {
             %skill-icon {
                 font-size: 45px;
             }
-
+            .icons{
+                @media screen and (max-width: 576px) {
+                    text-align: center;
+                }
+            }
 
             .fa-html5 {
                 @extend %skill-icon;
