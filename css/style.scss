@@ -56,7 +56,7 @@ html{
             .nav-link {
                 padding: 20px 20px;
                 font-size: 15px;
-                color: rgb(239, 246, 255);
+                color: rgb(255, 255, 255);
             }
         }
     }
@@ -150,10 +150,23 @@ html{
 /*-------------------------------*/
 /*        Content Container
 /*-------------------------------*/
-  
+ .bullet{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    margin-right: 5px;
+    border-radius: 50%;
+    display: inline-block;
+ } 
+ .img-thumbnail{
+     border-radius: 0 !important;
+     border: 1px solid #b8bcc0 !important;
+ }
+ 
 %header-txt {
     color: #eff6ff;
-    margin: 50px 0 20px;
+    margin: 60px 0 30px;
 }
 
 %sub-heading-txt {
@@ -165,7 +178,7 @@ html{
 .item-container {
     background-color: #0062cc;
     width: 100%;
-    height: 2500px;
+    height: 1620px;
     @media screen and (max-width: 576px) {
         height: 4500px;
     }
@@ -174,7 +187,12 @@ html{
         height: 300px;
         margin-top: 50px;
         font-size: 40px;
-
+        .img-screen1{
+            
+            img{
+                width: 100%;
+            }
+        }
         @media screen and (max-width: 576px) {
             height: 100%;
         }
@@ -214,6 +232,7 @@ html{
 
         .img-container1 {
             @extend %img-container;
+            // background-image: url(../images/Desktop-Screen-Shot.png);
             background-image: url(../images/Desktop-View2.png);
         }
         %img-container23{
@@ -237,8 +256,7 @@ html{
     }
 
     .right-container {
-        height: 400px;
-        margin-top: 100px;
+        margin-top: 125px;
 
         h5 {
             color: #f8f9fa;
@@ -299,7 +317,7 @@ html{
                 padding: 0;
 
                 li {
-                    font-size: 13px;
+                    // font-size: 13px;
                     margin: 18px 0;
                     color: #00060c;
 
@@ -318,9 +336,12 @@ html{
         }
 
         .page-speed-test {
-            img {
-                width: 100%;
+            a{
+                img {
+                    width: 100%;
+                }
             }
+            
 
             .img-thumbnail {
                 padding: .25rem;
