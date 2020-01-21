@@ -411,12 +411,24 @@ html {
         }
     }
 }
-
+.divider{
+    text-align: center;
+    padding: 7px 0;
+    margin-bottom: 5px;
+}
 .item-container {
     @extend %container;
-    height: 1650px;
+    height: 1700px;
 }
 .item-container2 {
     @extend %container;
-    height: 1800px;
+    height: 1700px;
+}
+.item-container3 {
+    @extend %container;
+    height: 1500px;
+}
+.item-container4 {
+    @extend %container;
+    height: 600px;
 }
