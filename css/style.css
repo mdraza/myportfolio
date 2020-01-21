@@ -204,14 +204,16 @@ html {
 }
 
 @-webkit-keyframes sk-chase-dot {
-  80%, 100% {
+  80%,
+  100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
 }
 
 @keyframes sk-chase-dot {
-  80%, 100% {
+  80%,
+  100% {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg);
   }
@@ -222,7 +224,8 @@ html {
     -webkit-transform: scale(0.4);
             transform: scale(0.4);
   }
-  100%, 0% {
+  100%,
+  0% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
@@ -233,7 +236,8 @@ html {
     -webkit-transform: scale(0.4);
             transform: scale(0.4);
   }
-  100%, 0% {
+  100%,
+  0% {
     -webkit-transform: scale(1);
             transform: scale(1);
   }
@@ -257,44 +261,43 @@ html {
   border: 1px solid #b8bcc0 !important;
 }
 
-.item-container .left-container h4 {
+.item-container .left-container h4, .item-container2 .left-container h4 {
   color: #eff6ff;
   margin: 60px 0 30px;
 }
 
-.item-container .left-container p {
+.item-container .left-container p, .item-container2 .left-container p {
   font-size: 18px;
   color: #fff;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }
 
-.item-container {
+.item-container, .item-container2 {
   background-color: #0062cc;
   width: 100%;
-  height: 1650px;
 }
 
-.item-container .left-container {
+.item-container .left-container, .item-container2 .left-container {
   height: 300px;
   margin-top: 50px;
   font-size: 40px;
 }
 
-.item-container .left-container .img-screen1 img {
+.item-container .left-container .img-screen1 img, .item-container2 .left-container .img-screen1 img {
   width: 100%;
 }
 
 @media screen and (max-width: 576px) {
-  .item-container .left-container {
+  .item-container .left-container, .item-container2 .left-container {
     height: 100%;
   }
 }
 
-.item-container .left-container h4 small {
+.item-container .left-container h4 small, .item-container2 .left-container h4 small {
   font-size: 12px;
 }
 
-.item-container .left-container .img-container1, .item-container .left-container .img-container2, .item-container .left-container .img-container3 {
+.item-container .left-container .img-container1, .item-container2 .left-container .img-container1, .item-container .left-container .img-container2, .item-container2 .left-container .img-container2, .item-container .left-container .img-container3, .item-container2 .left-container .img-container3 {
   width: 100%;
   height: 945px;
   overflow: hidden;
@@ -307,93 +310,93 @@ html {
   margin-top: 15px;
 }
 
-.item-container .left-container .img-container1:hover, .item-container .left-container .img-container2:hover, .item-container .left-container .img-container3:hover {
+.item-container .left-container .img-container1:hover, .item-container2 .left-container .img-container1:hover, .item-container .left-container .img-container2:hover, .item-container2 .left-container .img-container2:hover, .item-container .left-container .img-container3:hover, .item-container2 .left-container .img-container3:hover {
   background-position: bottom;
 }
 
-.item-container .left-container .img-container1 img, .item-container .left-container .img-container2 img, .item-container .left-container .img-container3 img {
+.item-container .left-container .img-container1 img, .item-container2 .left-container .img-container1 img, .item-container .left-container .img-container2 img, .item-container2 .left-container .img-container2 img, .item-container .left-container .img-container3 img, .item-container2 .left-container .img-container3 img {
   width: 100%;
   border: 1px dashed #fff;
 }
 
-.item-container .left-container .img-container1 {
+.item-container .left-container .img-container1, .item-container2 .left-container .img-container1 {
   background-image: url(../images/Desktop-View2.png);
 }
 
-.item-container .left-container .img-container2, .item-container .left-container .img-container3 {
+.item-container .left-container .img-container2, .item-container2 .left-container .img-container2, .item-container .left-container .img-container3, .item-container2 .left-container .img-container3 {
   height: 594px;
 }
 
-.item-container .left-container .img-container2 {
+.item-container .left-container .img-container2, .item-container2 .left-container .img-container2 {
   background-image: url(../images/iPad-View.png);
 }
 
-.item-container .left-container .img-container3 {
+.item-container .left-container .img-container3, .item-container2 .left-container .img-container3 {
   background-image: url(../images/iPhone-5-view.png);
 }
 
-.item-container .right-container .skills, .item-container .right-container .important-points {
+.item-container .right-container .skills, .item-container2 .right-container .skills, .item-container .right-container .important-points, .item-container2 .right-container .important-points {
   padding: 20px;
   background: #f8f9fa;
 }
 
-.item-container .right-container {
+.item-container .right-container, .item-container2 .right-container {
   margin-top: 125px;
 }
 
-.item-container .right-container h5 {
+.item-container .right-container h5, .item-container2 .right-container h5 {
   color: #f8f9fa;
   margin-bottom: 15px;
   text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   font-size: 18px;
 }
 
-.item-container .right-container .skills .fa-html5, .item-container .right-container .skills .fa-sass, .item-container .right-container .skills .fa-js, .item-container .right-container .skills .fa-bootstrap, .item-container .right-container .skills .fa-grunt, .item-container .right-container .skills .fa-github-square {
+.item-container .right-container .skills .fa-html5, .item-container2 .right-container .skills .fa-html5, .item-container .right-container .skills .fa-sass, .item-container2 .right-container .skills .fa-sass, .item-container .right-container .skills .fa-js, .item-container2 .right-container .skills .fa-js, .item-container .right-container .skills .fa-bootstrap, .item-container2 .right-container .skills .fa-bootstrap, .item-container .right-container .skills .fa-grunt, .item-container2 .right-container .skills .fa-grunt, .item-container .right-container .skills .fa-github-square, .item-container2 .right-container .skills .fa-github-square {
   font-size: 45px;
 }
 
 @media screen and (max-width: 576px) {
-  .item-container .right-container .skills .icons {
+  .item-container .right-container .skills .icons, .item-container2 .right-container .skills .icons {
     text-align: center;
   }
 }
 
-.item-container .right-container .skills .fa-html5 {
+.item-container .right-container .skills .fa-html5, .item-container2 .right-container .skills .fa-html5 {
   color: #dd512a;
 }
 
-.item-container .right-container .skills .fa-sass {
+.item-container .right-container .skills .fa-sass, .item-container2 .right-container .skills .fa-sass {
   color: #cd6699;
 }
 
-.item-container .right-container .skills .fa-js {
+.item-container .right-container .skills .fa-js, .item-container2 .right-container .skills .fa-js {
   color: #e4ba42;
 }
 
-.item-container .right-container .skills .fa-bootstrap {
+.item-container .right-container .skills .fa-bootstrap, .item-container2 .right-container .skills .fa-bootstrap {
   color: #6d3ab8;
 }
 
-.item-container .right-container .skills .fa-grunt {
+.item-container .right-container .skills .fa-grunt, .item-container2 .right-container .skills .fa-grunt {
   color: #e78724;
 }
 
-.item-container .right-container .skills .fa-github-square {
+.item-container .right-container .skills .fa-github-square, .item-container2 .right-container .skills .fa-github-square {
   color: #171515;
 }
 
-.item-container .right-container .important-points ul {
+.item-container .right-container .important-points ul, .item-container2 .right-container .important-points ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.item-container .right-container .important-points ul li {
+.item-container .right-container .important-points ul li, .item-container2 .right-container .important-points ul li {
   margin: 18px 0;
   color: #00060c;
 }
 
-.item-container .right-container .important-points ul li span {
+.item-container .right-container .important-points ul li span, .item-container2 .right-container .important-points ul li span {
   width: 10px;
   height: 10px;
   border: 2px solid #007bff;
@@ -403,16 +406,24 @@ html {
   display: inline-block;
 }
 
-.item-container .right-container .page-speed-test a img {
+.item-container .right-container .page-speed-test a img, .item-container2 .right-container .page-speed-test a img {
   width: 100%;
 }
 
-.item-container .right-container .page-speed-test .img-thumbnail {
+.item-container .right-container .page-speed-test .img-thumbnail, .item-container2 .right-container .page-speed-test .img-thumbnail {
   padding: .25rem;
   background-color: #fff;
   border: 1px solid #dee2e6;
   border-radius: 0.5px;
   max-width: 100%;
   height: auto;
+}
+
+.item-container {
+  height: 1650px;
+}
+
+.item-container2 {
+  height: 1800px;
 }
 /*# sourceMappingURL=style.css.map */
