@@ -199,6 +199,28 @@ html {
 }
 
 /*-------------------------------*/
+/*        Go-to-Top
+/*-------------------------------*/
+.scroll-top {
+    width: 44px;
+    line-height: 44px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+    font-size: 22px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: none;
+    background: #007bff;
+    border-radius: 0px;
+    box-shadow: 1px 2px 25px rgba(0, 0, 0, 0.6);
+    transition: .2s ease-in-out;
+}
+
+/*-------------------------------*/
 /*        Content Container
 /*-------------------------------*/
 .bullet {

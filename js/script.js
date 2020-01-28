@@ -32,4 +32,22 @@ $('a[href*="#"]')
       );
     }
   }
-})
+});
+
+/****  Scroll Top  ****/
+$(window).on("scroll", function() {
+  if ($(this).scrollTop() > 600) {
+    $(".scroll-top").fadeIn(600);
+  } else {
+    $(".scroll-top").fadeOut(600);
+  }
+});
+$(".scroll-top").on("click", function() {
+  $("html,body").animate(
+    {
+      scrollTop: 0
+    },
+    500
+  );
+  return false;
+});
